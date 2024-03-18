@@ -3,8 +3,6 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
-import AOS from "aos";
-import "aos/dist/aos.css";
 
 
 
@@ -43,8 +41,6 @@ export default function RootLayout({
           </main>
         </div>
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
       </body>
     </html>
   );
