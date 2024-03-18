@@ -3,10 +3,9 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
-import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
-AOS.init();
+// AOS.init();
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -42,6 +41,9 @@ export default function RootLayout({
             <Footer />
           </main>
         </div>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
       </body>
     </html>
   );
