@@ -1,20 +1,20 @@
-importation type { Configurer } de "tailwindcss";
+import type { Config } from "tailwindcss";
 
 const config: Config = {
-  contenu: [
+  content: [
     "./pages / **/*. { js, ts, jsx, tsx, mdx }",
     "./components / ** / *. { js, ts, jsx, tsx, mdx }",
     "./app/**/*. { js, ts, jsx, tsx, mdx }",
   ],
-  thème: {
-    étendre: {
-      fond: {
+  theme: {
+    extend: {
+      background: {
         "radial gradient": "gradient radial (var (-tw-gradient-stops))",
         "gradient-conique":
           "gradient conique (à partir de 180 degrés à 50% 50%, var (-- tw-gradient-stops))",
       },
     },
-     écrans: {
+     screens: {
       '«2xl»': {'max': '«1535px»'},
       // => @media (largeur max: 1535px) { ... }
 
@@ -33,4 +33,4 @@ const config: Config = {
   },
   plugins: [],
 };
-export par défaut config;
+export default config;
