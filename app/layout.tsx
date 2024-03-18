@@ -4,8 +4,6 @@ import "./globals.css";
 import NavBar from "@/components/navbar/NavBar";
 import Footer from "@/components/footer/Footer";
 
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -24,6 +22,7 @@ export const metadata = {
 };
 
 export default function RootLayout({
+  
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -40,7 +39,6 @@ export default function RootLayout({
             <Footer />
           </main>
         </div>
-
       </body>
     </html>
   );
