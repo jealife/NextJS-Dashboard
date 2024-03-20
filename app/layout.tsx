@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex relative ">
-          <div className=" py-6 pl-6 relative z-[9999] md:p-3 md:w-full md:fixed md:bottom-0">
+          <div className=" py-6 pl-6 relative z-[9999] md:p-4 md:w-full md:fixed md:bottom-0">
             <NavBar />
           </div>
           <main className="overflow-clip flex-1 pb-6 ">
