@@ -5,7 +5,7 @@ export default function NavBar() {
     <nav
       data-aos="fade-up"
       data-aos-duration="600"
-      className="h-[calc(100vh-3rem)] lg:w-64  p-1 rounded-md sticky top-6 z-[9999] border border-slate-300 text-slate-100 flex flex-col   md:h-12 sm:flex-row md:transition-none md:w-full md:bg-[#222] overflow-x-hidden md:overflow-visible "
+      className="h-[calc(100vh-3rem)] w-64  p-1 rounded-md sticky top-6 z-[9999] border border-slate-300 text-slate-100 flex flex-col   md:h-12 sm:flex-row md:transition-none md:w-full md:bg-[#222] overflow-x-hidden md:overflow-visible "
     >
       <div className="flex px-3 min-h-12 items-center justify-between border-b border-[#363636] md:border-none py-0 ">
         <div className="flex-1 items-center ml-1 flex gap-[0.35rem]">
