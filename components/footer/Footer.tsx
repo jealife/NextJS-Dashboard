@@ -46,7 +46,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/designer"
-                    className="text-[#ababab] flex transition-colors   leading-4 text-base "
+                    className="text-[#ababab] flex hover:text-white duration-200 transition-colors   leading-4 text-base "
                   >
                     <div>Designer</div>
                   </a>
@@ -54,7 +54,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/cms"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>CMS</div>
                   </a>
@@ -62,7 +62,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/ecommerce"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Ecommerce</div>
                   </a>
@@ -70,7 +70,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/interactions-animations"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Interactions</div>
                   </a>
@@ -78,7 +78,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/localization"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Localization</div>
                   </a>
@@ -86,7 +86,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/seo"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>SEO</div>
                   </a>
@@ -94,7 +94,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/editor"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Editor</div>
                   </a>
@@ -102,7 +102,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/hosting"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Hosting</div>
                   </a>
@@ -110,7 +110,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/devlink"
-                    className="mb-4-link cc-combo w-inline-block"
+                    className="text-[#ababab] flex hover:text-white duration-200"
                   >
                     <div>DevLink</div>
                     <div className="mb-4-tag">Labs</div>
@@ -119,7 +119,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/figma-to-webflow"
-                    className="mb-4-link cc-combo w-inline-block"
+                    className="text-[#ababab] flex hover:text-white duration-200"
                   >
                     <div>Figma to Webflow</div>
                     <div className="mb-4-tag">Labs</div>
@@ -128,7 +128,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/security"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Security</div>
                   </a>
@@ -136,7 +136,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/accessibility"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Accessibility</div>
                   </a>
@@ -144,7 +144,7 @@ export default function Footer() {
                 <li className="mb-4">
                   <a
                     href="https://webflow.com/features"
-                    className="text-[#ababab] flex  "
+                    className="text-[#ababab] flex hover:text-white duration-200  "
                   >
                     <div>Feature index</div>
                   </a>
