@@ -27,7 +27,10 @@ export default function NavBar() {
               </svg>
             </div>
           </a>
-          <a className="max-w-full flex  visible max-h-8 text-[.85rem] items-center font-[600] " href="#">
+          <a
+            className="max-w-full flex  visible max-h-8 text-[.85rem] items-center font-[600] "
+            href="https://university.webflow.com"
+          >
             Webfow University
           </a>
         </div>
